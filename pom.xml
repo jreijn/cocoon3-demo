@@ -7,21 +7,32 @@
   <groupId>com.jeroenreijn</groupId>
   <artifactId>cocoon3-demo</artifactId>
   <version>1.0</version>
+  <packaging>jar</packaging>
 
   <dependencies>
 
     <dependency>
       <groupId>org.apache.cocoon.pipeline</groupId>
       <artifactId>cocoon-pipeline</artifactId>
-      <version>3.0.0-alpha-2</version>
+      <version>3.0.0-alpha-3</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.cocoon.sax</groupId>
       <artifactId>cocoon-sax</artifactId>
-      <version>3.0.0-alpha-2</version>
+      <version>3.0.0-alpha-3</version>
     </dependency>
 
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.2</version>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
