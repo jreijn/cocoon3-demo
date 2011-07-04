@@ -7,7 +7,7 @@ More information about this demo project can be found at:
 
 ## Running this demo
 
-$ git clone git://github.com/jreijn/cocoon3-demo.git
-$ cd cocoon3-demo
-$ mvn compile
-$ mvn exec:java -Dexec.mainClass="com.jeroenreijn.RSSFeedInfoGenerator" -Dexec.args="http://blog.jeroenreijn.com/feeds/posts/default?alt=rss"
+- $ git clone git://github.com/jreijn/cocoon3-demo.git
+- $ cd cocoon3-demo
+- $ mvn compile
+- $ mvn exec:java -Dexec.mainClass="com.jeroenreijn.RSSFeedInfoGenerator" -Dexec.args="http://blog.jeroenreijn.com/feeds/posts/default?alt=rss"
