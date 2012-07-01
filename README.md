@@ -1,4 +1,6 @@
-This is a small demo project for using Apache Cocoon 3 as a standalone application.
+A small demo project for using Apache Cocoon 3 as a standalone application.
+This demo project makes use of the Cocoon 3 pipeline api. It fetches and transforms the 
+output of an RSS feed and adds some additional information by using an XSLT.
 
 More information about this demo project can be found at:
 
